@@ -4,6 +4,7 @@ import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { useLocale } from 'next-intl';
 import appConfig from '@/util/appConfig';
+import { ThemeProvider } from '@/theme/theme.provider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,8 +21,12 @@ export default function RootLayout({
   const locale = useLocale();
   return (
     <ClerkProvider localization={appConfig.i18n.clerk[locale as 'en' | 'es']}>
-      <html lang={locale}>
-        <body className={inter.className}>{children}</body>
+      <html lang={locale} suppressHydrationWarning>
+        <body className={inter.className}>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            {children}
+          </ThemeProvider>
+        </body>
       </html>
     </ClerkProvider>
   );

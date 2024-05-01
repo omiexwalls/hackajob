@@ -1,5 +1,10 @@
 {
   "Index": {
-    "signIn": "Sign In"
+    "signIn": "Sign In",
+    "Hero": {
+      "header": "Unlimited retro movies and TV shows",
+      "subheaderLine1": "Watch anywhere. Cancel anytime.",
+      "subheaderLine2": "Ready to watch? Enter your email to create or restart your membership."
+    }
   }
 }

@@ -8,7 +8,7 @@ Create a dynamic and responsive web application that allows users to manage a co
 Allow users to reset their passwords via email.
 ### Movie Database:
 - [x] Utilize Drizzle ORM to interact with a Postgres database.
-- [ ] Store movie details such as title, director, release date, genres, and a rating.
+- [x] Store movie details such as title, director, release date, genres, and a rating.
 ### Search and Filters:
 - [ ] Implement a robust search feature to find movies by title, director, or genre.
 - [ ] Add filters for sorting movies by release date, rating, or alphabetically.
@@ -37,6 +37,16 @@ Allow users to reset their passwords via email.
 ### Security Enhancements:
 - [ ] Implement CSRF protection and ensure all data handling follows best security practices.
 - [ ] Secure API endpoints and protect sensitive user data.
+### Accessibility Improvements:
+- [ ] Ensure the application is fully accessible and complies with WCAG standards.
+- [ ] Add keyboard navigation and screen reader support for all interactive elements.
+- [ ] Provide alternative text for images and use semantic HTML elements.
+- [ ] Implement dark mode and high contrast themes for users with visual impairments.
+- [ ] Add tooltips and focus indicators for interactive elements.
+### Internationalization:
+- [x] Support multiple languages and provide translations for all user-facing text.
+- [ ] Allow users to switch between languages and remember their preferences.
+
 ## Deployment
 - [ ] Deploy the application on Vercel.
 - [ ] Ensure seamless CI/CD integration for automated builds and deployments from your Git repository.

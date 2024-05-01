@@ -1,5 +1,10 @@
 {
   "Index": {
-    "signIn": "Iniciar Sesión"
+    "signIn": "Iniciar Sesión",
+    "Hero": {
+      "header": "Películas y programas de televisión retro ilimitados",
+      "subheaderLine1": "Mira en cualquier lugar. Cancela en cualquier momento.",
+      "subheaderLine2": "¿Listo para ver? Ingresa tu correo electrónico para crear o reiniciar tu membresía."
+    }
   }
 }
