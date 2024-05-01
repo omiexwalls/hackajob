@@ -1,5 +1,3 @@
-import enLogoSrc from '@/assets/logo-en.svg';
-import esLogoSrc from '@/assets/logo-es.svg';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 
@@ -91,7 +89,6 @@ function EsLogo() {
 
 export default function Logo() {
   const locale = useLocale();
-  const logoSrc = locale === 'en' ? enLogoSrc : esLogoSrc;
 
   return (
     <Link href="/" className="h-32 w-fit p-4">

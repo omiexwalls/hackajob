@@ -7,18 +7,20 @@ import darkHeroSrc from '@/assets/hero1-dark.jpg';
 import { clsx } from 'clsx';
 
 export default function Hero() {
-  const { theme } = useTheme();
+  const { theme, systemTheme } = useTheme();
+
+  const isDark = theme === 'dark' || (theme === 'system' && systemTheme === 'dark');
 
   return (
     <Image
       className={clsx('absolute z-0 w-full h-full', {
-        'opacity-55': theme === 'light',
-        'opacity-100': theme === 'dark',
+        'opacity-55': !isDark,
+        'opacity-100': isDark,
       })}
-      src={theme === 'dark' ? darkHeroSrc : lightHeroSrc}
+      src={isDark ? darkHeroSrc : lightHeroSrc}
       layout="fill"
       objectFit="cover"
-      alt={theme === 'dark' ? 'A dark hero image' : 'A light hero image'}
+      alt={isDark ? 'A dark hero image' : 'A light hero image'}
     />
   );
 }
