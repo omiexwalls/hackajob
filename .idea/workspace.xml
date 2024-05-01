@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f5e116-eabc-4f6a-bec1-05076c0f00f0" name="Changes" comment="" />
+    <list default="true" id="59f5e116-eabc-4f6a-bec1-05076c0f00f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/movie-collection/drizzle/actions/user.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-collection/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-collection/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-collection/drizzle.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-collection/drizzle.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-collection/drizzle/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-collection/drizzle/schema.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2fqkbTyWFjKJY4K4vErKKUXDGzu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -20,12 +39,15 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "npm.cypress:open.executor": "Run",
+    "npm.db:generate.executor": "Run",
     "npm.dev.executor": "Run",
     "npm.vercel:env.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/omiewalls/.nvm/versions/node/v18.18.2/lib/node_modules/prettier",
     "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/omiewalls/RustroverProjects/Hobby/hackajob/movie-collection/node_modules/typescript/lib"
+    "ts.external.directory.path": "/Users/omiewalls/RustroverProjects/Hobby/hackajob/movie-collection/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,6 +67,26 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="db:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/movie-collection/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="db:generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/movie-collection/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="vercel:env" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/movie-collection/package.json" />
       <command value="run" />
@@ -57,19 +99,33 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.vercel:env" />
+        <item itemvalue="npm.db:generate" />
         <item itemvalue="npm.cypress:open" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f5e116-eabc-4f6a-bec1-05076c0f00f0" name="Changes" comment="" />
+      <created>1714536067297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714536067297</updated>
+      <workItem from="1714536068472" duration="3080000" />
+    </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/movie-collection/tailwind.config.js" />
-      </list>
-    </option>
+    <option name="version" value="3" />
   </component>
 </project>
