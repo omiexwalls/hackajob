@@ -12,15 +12,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "code.cleanup.on.save": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "npm.cypress:open.executor": "Run",
     "npm.dev.executor": "Run",
     "npm.vercel:env.executor": "Run",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
+    "prettierjs.PrettierConfiguration.Package": "/Users/omiewalls/.nvm/versions/node/v18.18.2/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/omiewalls/RustroverProjects/Hobby/hackajob/movie-collection/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie-collection/assets" />
       <recent name="$PROJECT_DIR$/movie-collection/cypress/support" />
     </key>
   </component>
