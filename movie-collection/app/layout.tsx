@@ -8,6 +8,7 @@ import { getUserPreferences } from '@/drizzle/actions/user.actions';
 import { auth } from '@clerk/nextjs/server';
 import { useTheme } from 'next-themes';
 import { dark } from '@clerk/themes';
+import { Toaster } from '@/components/ui/toaster';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,7 +33,8 @@ export default async function RootLayout({
       <html lang={locale} suppressHydrationWarning>
         <body className={inter.className}>
           <ThemeProvider attribute="class" defaultTheme={preferences.theme} enableSystem>
-            {children}
+            <main>{children}</main>
+            <Toaster />
           </ThemeProvider>
         </body>
       </html>
