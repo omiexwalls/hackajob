@@ -21,7 +21,7 @@ const formSchema = z.object({
 });
 
 export default function UserPreferences({ params }: { params: { locale: string } }) {
-  const { theme, setTheme } = useTheme();
+  const { setTheme } = useTheme();
   const { userId } = useAuth();
   const router = useRouter();
 
@@ -66,7 +66,6 @@ export default function UserPreferences({ params }: { params: { locale: string }
       method: 'GET',
     }).then((response) => {
       response.json().then((data) => {
-        console.log(data);
         setTheme(data.theme);
         form.setValue('theme', data.theme);
       });

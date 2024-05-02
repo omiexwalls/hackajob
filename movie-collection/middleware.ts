@@ -7,7 +7,7 @@ const intlMiddleware = createMiddleware(appConfig.i18n);
 const isProtectedRoute = createRouteMatcher(['movies/(.*)']);
 
 export default clerkMiddleware((auth, req) => {
-  if (req.nextUrl.pathname === '/setup') return;
+  if (req.nextUrl.pathname.startsWith('/setup')) return;
 
   if (isProtectedRoute(req)) auth().protect();
 

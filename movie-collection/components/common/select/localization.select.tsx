@@ -7,15 +7,15 @@ import { Languages } from 'lucide-react';
 
 export default function LocalizationSelect() {
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
 
-  const handleChange = (value: string) => {
-    router.push(pathname.replace(locale, value));
-  };
+  function switchLocale(value: string) {
+    const newPath = `/${value}${pathname}`;
+    window.history.replaceState(null, '', newPath);
+  }
 
   return (
-    <Select onValueChange={handleChange}>
+    <Select onValueChange={switchLocale}>
       <SelectTrigger className="w-[180px]">
         <div className="flex items-center">
           <Languages size={16} className="mr-2" />

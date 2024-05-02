@@ -1,16 +1,14 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Jersey_20_Charted, Roboto_Mono } from 'next/font/google';
 import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import appConfig from '@/util/appConfig';
 import { ThemeProvider } from '@/theme/theme.provider';
 import { getUserPreferences } from '@/drizzle/actions/user.actions';
 import { auth } from '@clerk/nextjs/server';
-import { useTheme } from 'next-themes';
-import { dark } from '@clerk/themes';
 import { Toaster } from '@/components/ui/toaster';
 
-const inter = Inter({ subsets: ['latin'] });
+const robotoMono = Roboto_Mono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -31,7 +29,7 @@ export default async function RootLayout({
   return (
     <ClerkProvider localization={appConfig.i18n.clerk[locale as 'en' | 'es']}>
       <html lang={locale} suppressHydrationWarning>
-        <body className={inter.className}>
+        <body className={robotoMono.className}>
           <ThemeProvider attribute="class" defaultTheme={preferences.theme} enableSystem>
             <main>{children}</main>
             <Toaster />

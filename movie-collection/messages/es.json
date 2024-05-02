@@ -3,9 +3,16 @@
     "signIn": "Iniciar Sesión",
     "preferences": "Preferencias",
     "Hero": {
-      "header": "Películas y programas de televisión retro ilimitados",
+      "header": "Mira y aloja películas y programas generados por IA producidos por los mejores creadores del mundo.",
       "subheaderLine1": "Mira en cualquier lugar. Cancela en cualquier momento.",
-      "subheaderLine2": "¿Listo para ver? Ingresa tu correo electrónico para crear o reiniciar tu membresía."
+      "subheaderLine2": "¿Listo para ver? Ingresa tu correo electrónico para crear o reiniciar tu membresía.",
+      "cta": "Mira ahora"
+    }
+  },
+  "Setup": {
+    "Account": {
+      "choosePlan": "¡Elige el plan que sea adecuado para til!",
+      "chooseDescription": "Cambia de plan en cualquier momento."
     }
   }
 }

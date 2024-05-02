@@ -2,9 +2,9 @@
 
 import { UserButton } from '@clerk/nextjs';
 import { Settings } from 'lucide-react';
-import UserPreferences from '@/app/[locale]/components/preferences/user-preferences';
 import { useTheme } from 'next-themes';
 import { dark } from '@clerk/themes';
+import UserPreferences from '@/app/[locale]/_components/preferences/user-preferences';
 
 export default function CustomUserButton({ params }: { params: { locale: string } }) {
   const { theme, systemTheme } = useTheme();

@@ -2,9 +2,9 @@ import Logo from '@/components/common/logo';
 import LocalizationSelect from '@/components/common/select/localization.select';
 import { ModeDropdown } from '@/components/common/dropdown/mode.dropdown';
 import { SignedIn, SignedOut, SignInButton } from '@clerk/nextjs';
-import CustomUserButton from '@/app/[locale]/components/preferences/custom-user-button';
 import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
+import CustomUserButton from '@/app/[locale]/_components/preferences/custom-user-button';
 
 export default function Toolbar({ params }: { params: { locale: string } }) {
   const t = useTranslations('Index');

@@ -24,7 +24,6 @@ export async function setupUser(userId: string) {
     return;
   }
 
-  console.log('Setting up user:', user.fullName);
   await db.insert(UsersTable).values({
     userId,
     name: user.fullName,

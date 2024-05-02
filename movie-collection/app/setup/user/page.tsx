@@ -11,5 +11,5 @@ export default async function Page() {
 
   await setupUser(userId);
 
-  return redirect('/');
+  return redirect('/setup/account/general');
 }

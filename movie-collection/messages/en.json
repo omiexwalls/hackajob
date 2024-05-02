@@ -3,9 +3,16 @@
     "signIn": "Sign In",
     "preferences": "Preferences",
     "Hero": {
-      "header": "Unlimited retro movies and TV shows",
+      "header": "Watch & host AI-generated movies & shows produced by the world's best creators.",
       "subheaderLine1": "Watch anywhere. Cancel anytime.",
-      "subheaderLine2": "Ready to watch? Enter your email to create or restart your membership."
+      "subheaderLine2": "Ready to watch? Enter your email to create or restart your membership.",
+      "cta": "Get Started"
+    }
+  },
+  "Setup": {
+    "Account": {
+      "choosePlan": "Choose the plan that's right for you!",
+      "chooseDescription": "Downgrade or upgrade at any time."
     }
   }
 }

@@ -29,13 +29,10 @@ export async function POST(request: Request) {
   }
 
   const formData = await request.formData();
-  console.log('Form data:', formData);
   const theme = formData.get('theme');
   const preferences = {
     theme: theme as 'light' | 'dark' | 'system',
   };
-
-  console.log('User preferences:', preferences);
 
   try {
     await setUserPreferences(userId, preferences);
